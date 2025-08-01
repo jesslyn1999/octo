@@ -6,6 +6,7 @@ optax == 0.1.5
 tensorflow_probability == 0.23.0
 tensorflow == 2.15.0
 jax == 0.4.20
+jaxlib == 0.4.20
 distrax == 0.1.5
 flax == 0.7.5
 ml_collections >= 0.1.0
@@ -22,6 +23,7 @@ tensorflow_hub >= 0.14.0
 tensorflow_text >= 2.13.0
 tensorflow_datasets == 4.9.2
 tensorflow_graphics == 2021.12.3
-dlimp @ git+https://github.com/kvablack/dlimp@5edaa4691567873d495633f2708982b42edf1972
+# manually 
+# dlimp @ git+https://github.com/kvablack/dlimp@5edaa4691567873d495633f2708982b42edf1972
 plotly >= 5.16.1
 matplotlib

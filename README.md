@@ -93,6 +93,12 @@ We run pretraining using a TPUv4-128 pod in 8 hours for the Octo-S model and in 
 
 
 ## Octo Finetuning
+```
+export WANDB_BASE_URL="https://api.bandw.top"
+wandb login --relogin
+
+export HF_ENDPOINT=https://hf-mirror.com
+```
 
 We provide a [minimal example](examples/02_finetune_new_observation_action.py) for finetuning with a new observation and action space.
 
